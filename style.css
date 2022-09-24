@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body{
+    font-family: 'Roboto', sans-serif;;
+}
+.mycalculator{
+    border: 2px solid black;
+    border-radius: 19px;
+    width: 273px;
+    margin: auto;
+    padding-bottom: 9px;
+    background-color:rgb(180, 180, 180);
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 12px;
+    cursor: pointer;
+    margin: 4px 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 50px;
+}
+#long-btn{
+    padding: 12px;
+    cursor: pointer;
+    margin: 4px 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 110px;
+}
+.button:hover{
+    font-weight: bolder;
+    font-size:medium;
+    color: rgb(10, 26, 251);
+}
+.row input{
+    padding: 10px 4px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: right;
+}
